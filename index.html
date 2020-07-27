@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--boostrap 4-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!--bootstrap jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!--link of normlize css-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!--link of main css of the template-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--font awesome 5-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>special template</title>
+  </head>
+  <body>
+    <!--the body of the template-->
+    <!--make the setting of the website-->
+    <div class="container">
+      <div class="setting col-8 col-sm-6 col-md-4">
+        <div class="setting-color">
+          <h1>colors:</h1>
+          <ul>
+            <li class="active" data-color="#df5e88"></li>
+            <li data-color="#f28f3b"></li>
+            <li data-color="#2a9d8f"></li>
+            <li data-color="#e07a5f"></li>
+            <li data-color="#3b2e5a"></li>
+          </ul>
+        </div>
+        <div class="setting-back">
+          <h1>random backgrounds</h1>
+          <span class="yes active" data-random="yes">yes</span>
+          <span class="no" data-random="no">no</span>
+        </div>
+        <div class="testing-option">
+          <h1> side bullets</h1>
+          <span class="yes active" data-display="show">show</span>
+          <span class="no" data-display="hide">hide</span>
+        </div>
+        <div class="images-options">
+          <h1>choose your background</h1>
+          <img src="images/p.jpg" data-image="p.jpg">
+          <img src="images/p2.jpg" data-image="p2.jpg">
+          <img src="images/p3.png" data-image="p3.png">
+          <img src="images/p4.jpg" data-image="p4.jpg">
+          <img src="images/p5.jpg" data-image="p5.jpg">
+        </div>
+      </div>
+    </div>
+      <!-- start bullets-->
+      <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us"><div class="tooltop">about us</div></div>
+        <div class="bullet" data-section=".skills"><div class="tooltop">skills</div></div>
+        <div class="bullet" data-section=".our-gallery"><div class="tooltop">gallery</div></div>
+        <div class="bullet" data-section=".timeline"><div class="tooltop">time line</div></div>
+        <div class="bullet" data-section=".features"><div class="tooltop">features</div></div>
+        <div class="bullet" data-section=".testimonials"><div class="tooltop">testimonials</div></div>
+      </div>
+      <!--end bullets-->
+    <!--make the header of the page-->
+    <header>
+      <div class="landingHeader" id="header">
+        <div class="landing-overlay"></div>
+        <div class="container">
+          <!--nav bar from boostrap 4-->
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">creative <span>designers</span></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" data-section=".about-us" href="#"
+                    >about <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-section=".skills">skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-section=".features">features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-section=".our-gallery">gallery</a>
+                </li>
+                <li class="nav-item set">
+                  <a class="nav-link" href="#">
+                    setting <i class="fa fa-cog" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-section=".contact-us">contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header-words">
+            <h1>we are <span>creative</span> designers</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing el it.
+              Perferendis, iusto ad facere impedit inventore exercitationem!
+              Tempore temporibus
+            </p>
+          </div>
+          <input type="button" value="learn more" class="learn ml-auto" data-scrolled=".about-us"/>
+        </div>
+      </div>
+    </header>
+    <!--end header-->
+    <!--start about us -->
+    <div class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="about-us-words col-md-7">
+            <h1>about us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              saepe maiores ex quas ut facere quaerat nostrum! Animi eaque
+              sequi, minima voluptatem veritatis modi reiciendis quod fugit
+              temporibus fugiat? Expedita.ex quas ut facere quaerat nostrum!
+              Animi eaque sequi, minima voluptatem veritatis modi reiciendis
+              quod fugit temporibus fugiat? Expedita.
+            </p>
+          </div>
+          <div class="about-us-img col-md-5">
+            <img src="images/8.png" class="rounded-circle" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end about us-->
+    <!--start skills-->
+    <div class="skills">
+      <div class="container">
+        <h1 class="skill-h">skills</h1>
+        <div class="progress-box row">
+          <span class="col-3 col-sm-3 col-md-1"><span>html</span></span>
+          <div class="col-9 col-sm-9 col-md-11">
+            <div class="progress" style="height: 27px;">
+              <div
+                class="progress-bar"
+                data-progress="30%"
+                style="height: 27px;"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-box row">
+          <span class="col-3 col-sm-3 col-md-1"><span>css</span></span>
+          <div class="col-9 col-sm-9 col-md-11">
+            <div class="progress" style="height: 27px;">
+              <div
+                class="progress-bar"
+                data-progress="60%"
+                style="height: 27px;"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-box row">
+          <span class="col-3 col-sm-3 col-md-1"><span>php</span></span>
+          <div class="col-9 col-sm-9 col-md-11">
+            <div class="progress" style="height: 27px;">
+              <div
+                class="progress-bar"
+                data-progress="50%"
+                style="height: 27px;"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-box row">
+          <span class="col-3 col-sm-3 col-md-1"><span>sql</span></span>
+          <div class="col-9 col-sm-9 col-md-11">
+            <div class="progress" style="height: 27px;">
+              <div
+                class="progress-bar"
+                data-progress="90%"
+                style="height: 27px;"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end skills-->
+    <!--start gallery-->
+    <div class="our-gallery">
+      <div class="container">
+        <h1>gallery</h1>
+        <div class="row">
+            <img src="images/p.jpg" alt ="first image" class="text-center mx-auto col-md-3 col-md-3">
+            <img src="images/p2.jpg"   alt ="second image" class="text-center mx-auto col-sm-6 col-md-3">
+            <img src="images/p3.png" class="text-center mx-auto col-sm-6 col-md-3">
+            <img src="images/p2.jpg"  class="text-center mx-auto col-sm-6 col-md-3">
+            <img src="images/p5.jpg" class="text-center mx-auto col-sm-6 col-md-3">
+            <img src="images/p.jpg" class="text-center mx-auto col-sm-6 col-md-3">
+            <img src="images/p3.png" class="text-center mx-auto col-sm-6 col-md-3">
+            <img src="images/p5.jpg" class="text-center mx-auto col-sm-6 col-md-3">
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--end gallery-->
+    <!--start timeline-->
+    <div class="timeline">
+      <div class="container">
+        <div class="time-content">
+          <div class="year">2018</div>
+          <div class="left col-12 col-sm-12 col-md-6 col-lg-5 float-md-left">
+            <h1>creative tests</h1>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, mollitia accusamus. Harum ullam ad, deserunt 
+              quibusdam rerum corporis! At optio aliquid, non id excepturi iusto ut labore ducimus sunt qui.</p>
+          </div>
+          <div class="right  col-12 col-sm-12  col-md-6 col-lg-5 float-md-right">
+            <h1>creative tests</h1>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, mollitia accusamus. Harum ullam ad, deserunt 
+              quibusdam rerum corporis! At optio aliquid, non id excepturi iusto ut labore ducimus sunt qui.</p>
+          </div>
+          <div class="year">2020</div>
+          <div class="left col-12 col-sm-12 col-md-6 col-lg-5 float-md-left">
+            <h1>creative tests</h1>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, mollitia accusamus. Harum ullam ad, deserunt 
+              quibusdam rerum corporis! At optio aliquid, non id excepturi iusto ut labore ducimus sunt qui.</p>
+          </div>
+          <div class="right col-12 col-sm-12 col-md-6 col-lg-5 float-md-right">
+            <h1>creative tests</h1>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, mollitia accusamus. Harum ullam ad, deserunt 
+              quibusdam rerum corporis! At optio aliquid, non id excepturi iusto ut labore ducimus sunt qui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end timeline-->
+    <!--start features-->
+    <div class="features">
+      <div class="container">
+        <h1>features</h1>
+        <div class="row">
+          <div class="features-box col-sm-6 col-md-4 col-lg-4">
+            <img src="images/p3.png" class="text-center rounded-circle  mx-auto">
+            <h2>wordpress</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis culpa aut molestias ab quisquam
+               repellat velit sapiente odit nihil dolorem libero enim animi beatae eveniet dicta, iure ut saepe!</p>
+          </div>
+          <div class="features-box col-sm-6  col-md-4 col-lg-4">
+            <img src="images/p.jpg" class="text-center rounded-circle mx-auto">
+            <h2>development</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis culpa aut molestias ab quisquam
+               repellat velit sapiente odit nihil dolorem libero enim animi beatae eveniet dicta, iure ut saepe!</p>
+          </div>
+          <div class="features-box col-sm-6 col-md-4 col-lg-4">
+            <img src="images/p2.jpg" class="text-center rounded-circle mx-auto">
+            <h2>google analysis</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis culpa aut molestias ab quisquam
+               repellat velit sapiente odit nihil dolorem libero enim animi beatae eveniet dicta, iure ut saepe!</p>
+          </div>
+          <div class="features-box col-sm-6 col-md-4">
+            <img src="images/p5.jpg" class="text-center rounded-circle mx-auto">
+            <h2>more information</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis culpa aut molestias ab quisquam
+               repellat velit sapiente odit nihil dolorem libero enim animi beatae eveniet dicta, iure ut saepe!</p>
+          </div>
+          <div class="features-box col-sm-6 col-md-4 ">
+            <img src="images/p4.jpg" class="text-center rounded-circle mx-auto">
+            <h2>save time</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis culpa aut molestias ab quisquam
+               repellat velit sapiente odit nihil dolorem libero enim animi beatae eveniet dicta, iure ut saepe!</p>
+          </div>
+          <div class="features-box col-sm-6 col-md-4">
+            <img src="images/p3.png" class="text-center rounded-circle mx-auto">
+            <h2>active support</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis culpa aut molestias ab quisquam
+               repellat velit sapiente odit nihil dolorem libero enim animi beatae eveniet dicta, iure ut saepe!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end features-->
+    <!--start testimonials-->
+    <div class="testimonials">
+      <div class="container">
+        <h1 class="text-center">testimonials</h1>
+        <div class="row">
+          <div class="test1 col-sm-6 col-md-6 col-lg-4">
+            <img src="images/p2.jpg" class="float-left rounded-circle">
+        <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea ex dolorem, quas corrupti fugit officia 
+          in sed amet cumque placeat quibusdam nemo est quam id possimus repellendus numquam temporibus!</blockquote>
+          
+          <h2>jack killer <span>ceo at xyp</span></h2>
+          </div>
+          <div class="test2 col-sm-6 col-md-6 col-lg-4">
+            <img src="images/p2.jpg" class="float-left rounded-circle">
+        <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea ex dolorem, quas corrupti fugit officia 
+          in sed amet cumque placeat quibusdam nemo est quam id possimus repellendus numquam temporibus!</blockquote>
+          
+          <h2>jack killer <span>ceo at xyp</span></h2>
+          </div>
+          <div class="test3 col-sm-6 col-md-6 col-lg-4">
+            <img src="images/p2.jpg" class="float-left rounded-circle">
+        <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea ex dolorem, quas corrupti fugit officia 
+          in sed amet cumque placeat quibusdam nemo est quam id possimus repellendus numquam temporibus!</blockquote>
+          
+          <h2>jack killer <span>ceo at xyp</span></h2>
+        </div>
+          </div>
+      </div>
+    </div>
+    <!--end testimonials-->
+  <!--start contact us-->
+  <div class="contact-us">
+    <div class="container">
+      <h1>contact us</h1>
+      <form action="" class="col-md-8 text-center mx-auto">
+        <input type="text" placeholder="enter your name">
+        <input type="text" name="" id="" placeholder="enter your email">
+        <input type="text" placeholder="enter your phone">
+        <textarea row="50" placeholder="type your message"></textarea>
+        <input type="submit" value="send">
+      </form>
+    </div>
+  </div>
+  <!--end contact us-->
+  <!--start footer-->
+  <footer>
+      <p>designed by Ehab talaat</p>
+  </footer>
+  <!--end footer-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
